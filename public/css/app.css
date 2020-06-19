@@ -1,0 +1,134 @@
+html,
+body {
+  background-color: #EFF3FC;
+  color: #636b6f;
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
+  height: 100vh;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.flex-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.position-ref {
+  position: relative;
+}
+
+.top-right {
+  position: absolute;
+  right: 10px;
+  top: 18px;
+}
+
+.content {
+  text-align: center;
+}
+
+.title {
+  font-size: 84px;
+}
+
+.links > a {
+  color: #636b6f;
+  padding: 0 25px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.m-b-md {
+  margin-bottom: 30px;
+}
+
+.progress-container {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #f1f1f1;
+  width: 100%;
+  height: 3px;
+  background: #ccc;
+}
+
+/* The progress bar (scroll indicator) */
+
+.progress-bar {
+  height: 3px;
+  background: #3a48ed;
+  width: 0%;
+}
+
+.backgroundHome {
+  width: 100%;
+  height: 720px;
+  background: linear-gradient(180deg, rgba(5, 0, 84, 0.2333975827) 0%, rgba(52, 60, 158, 0.7628093474) 72%, #161616 100%), url("/assets/bg.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.videoSection {
+  width: 70%;
+  height: 360px;
+  background-color: #3a48ed;
+}
+
+.btn-primary {
+  background-color: #3a48ed;
+  border-color: #3a48ed;
+}
+
+.navbar-nav .nav-item {
+  text-transform: Uppercase;
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-item:hover {
+  transition: color 1s;
+  transition: transform 1s;
+  transform: scale(1.1);
+  color: #3a48ed !important;
+}
+
+.titleSection {
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+
+.subTitle {
+  text-align: justify;
+}
+
+.videoSection {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.card-body {
+  width: 70%;
+  text-align: center;
+}
+
+.formulario {
+  width: 50%;
+}
+
+.page-footer {
+  background-color: #3a48ed;
+  margin-top: 100px;
+}
+
